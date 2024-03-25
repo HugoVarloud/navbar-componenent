@@ -2,7 +2,7 @@ import React from 'react';
 
 const Section = ({ id, title }) => {
   return (
-    <section id={id}>
+    <section style={{ paddingTop: '60px' }} id={id}>
       <h2>{title}</h2>
       <p>This is the content of {title}</p>
       <p>
